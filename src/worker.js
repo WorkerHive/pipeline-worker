@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 const amqplib = require('amqplib')
-const ipfs = require('workhub-ipfs')
+const ipfs = require('@workerhive/ipfs')
 const dot = require('dot')
 
 const exec = require('child_process').exec;
