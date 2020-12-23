@@ -11,10 +11,10 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^3",
+    "@workerhive/ipfs": "^1.0.0",
     "amqplib": "^0.6.0",
     "dot": "^1.1.3",
     "tslib": "^1",
-    "workhub-ipfs": "https://github.com/WorkerHive/workhub-ipfs",
     "wrtc": "^0.4.6"
   },
   "devDependencies": {
