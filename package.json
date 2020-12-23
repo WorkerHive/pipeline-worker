@@ -1,10 +1,10 @@
 {
-  "name": "pipeline-cli",
+  "name": "@workerhive/pipeline-worker",
   "description": "Workhub Pipeline Worker CLI ",
   "version": "0.0.0",
   "author": "Ross Leitch @balbatross",
   "bin": {
-    "pipeline-cli": "./bin/run"
+    "pipeline-worker": "./bin/run"
   },
   "bugs": "https://github.com/WorkerHive/pipeline-worker/issues",
   "dependencies": {

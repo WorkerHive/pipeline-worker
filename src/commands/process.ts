@@ -11,13 +11,16 @@ export class ProcessCommand extends Command {
     ]
 
   static flags = {
-      command: flags.string()
+      command: flags.string(),
+      input: flags.string(),
+      output: flags.string(),
+      pwd: flags.string()
   }
   async run() {
     const { flags } = this.parse(ProcessCommand)
 
     if(flags.command){
-        Worker(flags.command)
+        Worker(flags.command, flags.input, flags.output, flags.pwd)
     }else{
         throw Error("No command given")
     }
